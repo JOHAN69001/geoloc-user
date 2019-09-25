@@ -1,4 +1,4 @@
-a<?php
+<?php
 
 $ip = $_SERVER['REMOTE_ADDR'];
 $geoIp = geoip_record_by_name($ip);
